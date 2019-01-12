@@ -2,6 +2,8 @@
   "dependencies": {
     "airbnb-browser-shims": "^2.1.0",
     "babel-eslint": "^8.2.3",
+    "bootstrap": "^4.2.1",
+    "commitizen": "^3.0.5",
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-react-helmet": "^2.0.3",
@@ -10,9 +12,11 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.11",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.2.0",
     "react-google-invisible-recaptcha": "^0.2.7",
     "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.3.1",
     "react-typography": "^0.16.13",
     "smoothscroll-polyfill": "^0.4.3",
     "typography": "^0.16.6"
