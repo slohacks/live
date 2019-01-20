@@ -1,0 +1,9 @@
+.navFlex li {
+  margin: 1rem 0;
+}
+
+.navFlex li a {
+  padding: 1rem !important;
+  margin: 1.5rem 0;
+  color: rgb(169, 169, 169);
+}

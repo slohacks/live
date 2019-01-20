@@ -1,26 +1,16 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Tracks from '../components/Tracks';
-import History from '../components/History';
-import Baker from '../components/Baker';
-// import Schedule from '../components/Schedule';
-import FAQ from '../components/FAQ';
-import Sponsor from '../components/Sponsor';
-import CTA from '../components/CTA';
-import styles from './index.module.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import Tracks from './Tracks';
 
 const IndexPage = () => (
-  <div className={styles.layout}>
-    <Hero />
-    <About />
-    <Tracks />
-    <History />
-    <Baker />
-    {/* <Schedule /> */}
-    <FAQ />
-    <Sponsor />
-    <CTA />
+  <div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/tracks" component={Tracks} />
+      </Switch>
+    </BrowserRouter>
   </div>
 );
 export default IndexPage;
