@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import Navigation from '../components/Navigation';
 
 const TemplateWrapper = props => (
   <div>
@@ -13,6 +14,7 @@ const TemplateWrapper = props => (
       ]}
     />
     <div>
+      <Navigation />
       {props.children()}
     </div>
   </div>
