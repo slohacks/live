@@ -1,0 +1,36 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 3rem;
+}
+
+.welcome {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual {
+  margin: 1em;
+}
+
+.links {
+  color: inherit;
+}
+
+.eventDetails {
+  margin: 0 0  0 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    grid-template-areas: 
+    'welcomeArea details'
+    'blurb socialMedia'
+    'buttons';
+  }
+}
