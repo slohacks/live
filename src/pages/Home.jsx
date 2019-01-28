@@ -86,6 +86,8 @@ const Home = () => (
           </a>
         </p>
       </div>
+    </div>
+    <div className="info">
       <h3>
         Join our Slack Channel
       </h3>

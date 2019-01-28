@@ -26,18 +26,18 @@
   margin: 0 0  0 2rem;
 }
 
+.info {
+  grid-area: info;
+}
+
+.event {
+  grid-area: event;
+}
+
 @media screen and (min-width: 992px) {
   .home {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 'info event';
     grid-gap: 1em;
-  }
-
-  .imageText {
-    margin-top: 5em;
-  }
-
-  .individual {
-    margin-top: 5em;
   }
 }
