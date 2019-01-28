@@ -28,9 +28,16 @@
 
 @media screen and (min-width: 992px) {
   .home {
-    grid-template-areas: 
-    'welcomeArea details'
-    'blurb socialMedia'
-    'buttons';
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'info event';
+    grid-gap: 1em;
+  }
+
+  .imageText {
+    margin-top: 5em;
+  }
+
+  .individual {
+    margin-top: 5em;
   }
 }

@@ -3,7 +3,7 @@ import styles from './Home.module.css';
 
 const Home = () => (
   <div className={styles.home}>
-    <div className={styles.welcomeArea}>
+    <div className="info">
       <h1 className={styles.welcome}>
         Welcome to
         <br />
@@ -11,15 +11,11 @@ const Home = () => (
           SLO Hacks 2019!
         </strong>
       </h1>
-    </div>
-    <div className={styles.blurb}>
       <p className={styles.imageText}>
         SLO Hacks 2019 is a 500-student, 36-hour hackathon
         hosted at Cal Poly SLO. Over the course of the event, you will meet new
         people, develop your skills, and turn your next big idea into a reality!
       </p>
-    </div>
-    <div className={styles.buttons}>
       <button className={styles.individual}>
         Learn More
       </button>
@@ -29,7 +25,7 @@ const Home = () => (
         </a>
       </button>
     </div>
-    <div className={styles.details}>
+    <div className="event">
       <h3>
         WiFi Information
       </h3>
@@ -100,8 +96,6 @@ const Home = () => (
           </a>
         </p>
       </div>
-    </div>
-    <div className={styles.socialMedia}>
       <h3>
         Follow us on social media!
       </h3>
