@@ -3,13 +3,13 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './navigation.module.css';
+import navLogo from '../assets/logo-white.png';
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -28,40 +28,37 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="lg" fixed="top">
-          <NavbarBrand href="/">
-            <Link to="/">SLO Hacks 2019</Link>
-          </NavbarBrand>
+        <Navbar className={styles.navColor} light expand="lg" fixed="top">
+          <Link to="/">
+            <img className={styles.navLogo} src={navLogo} alt="SLO Hacks 2019" />
+          </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse className={`${styles.navFlex}`} isOpen={this.state.isOpen} navbar>
-            <Nav className="nav-fill" navbar>
-              <NavItem>
-                <Link to="/tracks">About</Link>
+            <Nav className={styles.navList}navbar>
+              <NavItem onClick={() => this.setState({ isOpen: false })}>
+                <Link replace to="/activities">Schedule</Link>
               </NavItem>
-              <NavItem>
-                <Link to="/tracks">Events</Link>
+              <NavItem onClick={() => this.setState({ isOpen: false })}>
+                <Link replace to="/tracks">Map</Link>
               </NavItem>
-              <NavItem>
-                <Link to="/tracks">Map</Link>
+              <NavItem onClick={() => this.setState({ isOpen: false })}>
+                <Link replace to="/tracks">Tracks</Link>
               </NavItem>
-              <NavItem>
-                <Link to="/tracks">Tracks</Link>
+              <NavItem onClick={() => this.setState({ isOpen: false })}>
+                <Link replace to="/mentors">Mentors</Link>
               </NavItem>
-              <NavItem>
-                <Link to="/tracks">Mentors</Link>
+              <NavItem onClick={() => this.setState({ isOpen: false })}>
+                <Link replace to="/tracks">Sponsors</Link>
               </NavItem>
-              <NavItem>
-                <Link to="/tracks">Sponsors</Link>
-              </NavItem>
-              <NavItem>
-                <Link to="/tracks">Submit</Link>
+              <NavItem onClick={() => this.setState({ isOpen: false })}>
+                <a rel="noopener noreferrer" href="https://slohacks2019.devpost.com/" target="_blank">Submit</a>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
         <div
           style={{
-            paddingTop: '4.5rem',
+            paddingTop: '8.5rem',
             width: '100%',
           }}
         />
