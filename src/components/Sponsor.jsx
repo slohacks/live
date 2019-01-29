@@ -36,9 +36,11 @@ class Sponsor extends Component {
             </p>
             <p>
               { 'Learn More: ' }
-              <a href={link} target="_blank" rel="noopener noreferrer" >
-                {sponsorName}
-              </a>
+              <strong>
+                <a href={link} target="_blank" rel="noopener noreferrer" >
+                  {sponsorName}
+                </a>
+              </strong>
             </p>
           </div> :
        null }
@@ -46,5 +48,12 @@ class Sponsor extends Component {
     );
   }
 }
+
+Sponsor.propTypes = {
+  logo: PropTypes.string.isRequired,
+  sponsorName: PropTypes.string.isRequired,
+  blurb: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};
 
 export default Sponsor;
