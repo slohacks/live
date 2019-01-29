@@ -3,7 +3,7 @@ import styles from './Home.module.css';
 
 const Home = () => (
   <div className={styles.home}>
-    <div className="info">
+    <div className={styles.info}>
       <h1 className={styles.welcome}>
         Welcome to
         <br />
@@ -25,7 +25,7 @@ const Home = () => (
         </a>
       </button>
     </div>
-    <div className="event">
+    <div className={styles.event} >
       <h3>
         WiFi Information
       </h3>
@@ -87,7 +87,7 @@ const Home = () => (
         </p>
       </div>
     </div>
-    <div className="info">
+    <div className={styles.social}>
       <h3>
         Join our Slack Channel
       </h3>

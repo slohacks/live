@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 3rem;
+  grid-template-areas:
+    'info'
+    'event'
+    'social';
 }
 
 .welcome {
@@ -37,7 +41,9 @@
 @media screen and (min-width: 992px) {
   .home {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'info event';
+    grid-template-areas:
+      'info event'
+      'social event';
     grid-gap: 1em;
   }
 }
