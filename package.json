@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@material-ui/core": "^3.9.1",
     "airbnb-browser-shims": "^2.1.0",
     "babel-eslint": "^8.2.3",
     "bootstrap": "^4.2.1",
