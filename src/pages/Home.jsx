@@ -56,9 +56,11 @@ const Home = () => (
           </strong>
           <br />
           {'You can find the judging criteria at '}
-          <a href="https://slohacks2019.devpost.com/" target="_blank" rel="noopener noreferrer">
-            slohacks2019.devpost.com.
-          </a>
+          <strong>
+            <a className={styles.links} href="https://slohacks2019.devpost.com/" target="_blank" rel="noopener noreferrer">
+              slohacks2019.devpost.com.
+            </a>
+          </strong>
         </p>
         <p>
           <strong>
@@ -81,9 +83,11 @@ const Home = () => (
           </strong>
           <br />
           {'You can find the judging criteria at '}
-          <a href="https://slohacks2019.devpost.com/" target="_blank" rel="noopener noreferrer">
-            slohacks2019.devpost.com.
-          </a>
+          <strong>
+            <a className={styles.links} href="https://slohacks2019.devpost.com/" target="_blank" rel="noopener noreferrer">
+              slohacks2019.devpost.com.
+            </a>
+          </strong>
         </p>
       </div>
     </div>
@@ -93,9 +97,11 @@ const Home = () => (
       </h3>
       <div className={styles.eventDetails}>
         <p>
-          <a href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
-            bit.ly/join-slohacks2019
-          </a>
+          <strong>
+            <a className={styles.links} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
+              bit.ly/join-slohacks2019
+            </a>
+          </strong>
         </p>
       </div>
       <h3>
@@ -103,19 +109,25 @@ const Home = () => (
       </h3>
       <div className={styles.eventDetails}>
         <p>
-          <a href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
-            Instagram
-          </a>
+          <strong>
+            <a className={styles.links} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
+              slo_hacks
+            </a>
+          </strong>
         </p>
         <p>
-          <a href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
-              Facebook
-          </a>
+          <strong>
+            <a className={styles.links} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
+                slohacks
+            </a>
+          </strong>
         </p>
         <p>
-          <a href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
-              Twitter
-          </a>
+          <strong>
+            <a className={styles.links} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
+                slohacks
+            </a>
+          </strong>
         </p>
       </div>
     </div>
