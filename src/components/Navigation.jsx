@@ -51,7 +51,7 @@ class Navigation extends React.Component {
                 <Link to="/tracks">Mentors</Link>
               </NavItem>
               <NavItem>
-                <Link to="/tracks">Sponsors</Link>
+                <Link to="/sponsors">Sponsors</Link>
               </NavItem>
               <NavItem>
                 <Link to="/tracks">Submit</Link>
