@@ -1,5 +1,6 @@
-import { React, Component } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import styles from './Sponsor.module.css';
 
 
 class Sponsor extends Component {
@@ -25,15 +26,18 @@ class Sponsor extends Component {
     } = this.state;
     return (
       <div>
-        <img src={logo} alt={sponsorName} onClick={this.handleOnClick} onKeyPress={this.handleOnClick} />
-        {this.clicked ?
+        <button className={styles.outline} onClick={this.handleOnClick}>
+          <img className={styles.logo} src={logo} alt={sponsorName} />
+        </button>
+        {clicked ?
           <div>
             <p>
               {blurb}
             </p>
             <p>
+              { 'Learn More: ' }
               <a href={link} target="_blank" rel="noopener noreferrer" >
-                {link}
+                {sponsorName}
               </a>
             </p>
           </div> :
