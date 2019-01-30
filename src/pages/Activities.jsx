@@ -9,7 +9,7 @@ const Activities = () => {
       return (
         <div key={event.id}className={styles.event}>
           <h3>{event.title}</h3>
-          <h3>{event.time}</h3>
+          <h3>{`${event.time}, ${event.location}`}</h3>
         </div>
       );
     });
