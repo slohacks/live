@@ -7,7 +7,7 @@ const Activities = () => {
     const { body } = data;
     return body[eventSection].events.map((event) => { // eslint-disable-line arrow-body-style
       return (
-        <div key={event.id}className={styles.event}>
+        <div key={event.id} className={styles.event}>
           <h3>{event.title}</h3>
           <h3>{`${event.time}, ${event.location}`}</h3>
         </div>

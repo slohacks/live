@@ -13,7 +13,7 @@
   font-family: 'Brandon Grotesque', sans-serif;
   color: #FFF;
   border-left: 1px solid #FFF;
-  margin: 3rem 0;
+  margin: 3rem 0 3rem 2rem;
 }
 
 .dayHeader {
@@ -26,7 +26,7 @@
 }
 
 .saturday {
-  transform: rotate(270deg) translateY(-6.25rem) translateX(-4rem);
+  transform: rotate(270deg) translateY(-6.75rem) translateX(-4rem);
 }
 
 .sunday {
@@ -35,7 +35,7 @@
 
 .event {
   color: rgb(255, 255, 255);
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
 }
 
 .event h3:first-child {
@@ -46,6 +46,10 @@
 @media (min-width: 992px) {
   .activities {
     grid-template-columns: 1fr 10fr 1fr;
+  }
+
+  .event h3:first-child {
+    width: 20vw;
   }
 
   .eventContainer {
