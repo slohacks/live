@@ -1,0 +1,25 @@
+.outline {
+  display: flex;
+  align-items: center;
+}
+
+.outside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.other {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+p {
+  color: #FFF;
+}
+
+a {
+  color: inherit;
+}

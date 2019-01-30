@@ -48,7 +48,7 @@ class Navigation extends React.Component {
                 <Link replace to="/mentors">Mentors</Link>
               </NavItem>
               <NavItem onClick={() => this.setState({ isOpen: false })}>
-                <Link replace to="/tracks">Sponsors</Link>
+                <Link replace to="/sponsors">Sponsors</Link>
               </NavItem>
               <NavItem onClick={() => this.setState({ isOpen: false })}>
                 <a rel="noopener noreferrer" href="https://slohacks2019.devpost.com/" target="_blank">Submit</a>

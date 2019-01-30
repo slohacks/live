@@ -1,0 +1,74 @@
+.sponsors {
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  margin-top: 3rem;
+}
+
+.logos {
+  grid-area: logos;
+}
+
+.itrade {
+  padding-bottom: 4.25%;
+}
+
+.corsair {
+  width: 25%;
+}
+
+.wolfram {
+  width: 25%;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .topSponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span 3;
+  }
+
+  .topLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .medSponsors {
+    display: grid;
+    grid-column: span 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .medLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .smallLogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: span 3;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .silver {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-items: center;
+  }
+}
