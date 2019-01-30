@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Track.module.css';
+import styles from '../layouts/index.module.css';
 
 const Track = props => (
   <div>
@@ -7,10 +9,11 @@ const Track = props => (
     <h2>
       {props.title}
     </h2>
+    <br />
     <p>
       {props.blurb}
     </p>
-    <button>
+    <button className={styles.regular}>
       <a href={props.starterPack} target="_blank" rel="noopener noreferrer">
         Starter Pack
       </a>
