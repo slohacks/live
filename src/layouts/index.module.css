@@ -5,4 +5,16 @@ html {
 body {
   background-image: linear-gradient(to bottom, #375787 0%, #E09983 100%);
   min-height: 100%;
+  color: #FFF;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+.regular {
+  background-color: transparent;
+  border-color: #FFF;
+  border-radius: 1vh;
+}
+
+a {
+  color: #FFF;
 }

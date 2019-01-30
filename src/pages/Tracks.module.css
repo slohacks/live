@@ -1,0 +1,30 @@
+.tracks {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-areas:
+    '. gamedev .'
+    '. ai .'
+    '. iot .';
+  grid-gap: 5%;
+}
+
+.gamedev {
+  grid-area: gamedev;
+}
+
+.ai {
+  grid-area: ai;
+}
+
+.iot {
+  grid-area: iot;
+}
+
+@media (min-width: 992px) {
+  .tracks {
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-areas: '. gamedev ai iot .';
+    grid-gap: 5%;
+  }
+}
