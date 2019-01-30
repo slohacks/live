@@ -14,4 +14,5 @@ module.exports = {
     'airbnb-browser-shims',
   ],
   polyfill: false,
+  pathPrefix: '/live',
 };
