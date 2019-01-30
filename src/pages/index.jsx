@@ -4,6 +4,7 @@ import Home from './Home';
 import Tracks from './Tracks';
 import Mentors from './Mentors';
 import Activities from './Activities';
+import Map from './Map';
 
 const IndexPage = () => (
   <div>
@@ -13,6 +14,7 @@ const IndexPage = () => (
         <Route path="/tracks" component={Tracks} />
         <Route path="/mentors" component={Mentors} />
         <Route path="/activities" component={Activities} />
+        <Route path="/map" component={Map} />
       </Switch>
     </BrowserRouter>
   </div>
