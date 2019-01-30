@@ -5,12 +5,24 @@
 
 .content {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 10% 1fr 10%;
   margin-top: 3rem;
 }
 
 .logos {
   grid-area: logos;
+}
+
+.itrade {
+  padding-bottom: 4.25%;
+}
+
+.corsair {
+  width: 25%;
+}
+
+.wolfram {
+  width: 25%;
 }
 
 @media screen and (min-width: 992px) {

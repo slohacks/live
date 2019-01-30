@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from './Sponsor.module.css';
 
-
 class Sponsor extends Component {
   constructor(props) {
     super(props);
@@ -25,10 +24,12 @@ class Sponsor extends Component {
       clicked,
     } = this.state;
     return (
-      <div>
-        <button className={styles.outline} onClick={this.handleOnClick}>
-          <img className={styles.logo} src={logo} alt={sponsorName} />
-        </button>
+      <div className={`${styles.outside} ${sponsorName}`}>
+        <div className={styles.outline}>
+          <button className={styles.other} onClick={this.handleOnClick}>
+            <img className={sponsorName} src={logo} alt={sponsorName} />
+          </button>
+        </div>
         {clicked ?
           <div>
             <p>

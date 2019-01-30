@@ -3,7 +3,7 @@ import Sponsor from '../components/Sponsor';
 import f5 from '../assets/logos/f5.svg';
 import itrade from '../assets/logos/itradenetwork.svg';
 import wd from '../assets/logos/wd.svg';
-import viasat from '../assets/logos/Viasat.svg';
+import viasat from '../assets/logos/viasat.svg';
 import godaddy from '../assets/logos/godaddy.svg';
 import micro from '../assets/logos/microvu.svg';
 import platinum from '../assets/logos/platinum.svg';
@@ -13,16 +13,16 @@ import github from '../assets/logos/github.png';
 import hathway from '../assets/logos/hathway.png';
 import balsamiq from '../assets/logos/balsamiq.svg';
 import linode from '../assets/logos/linode.png';
-import flume from '../assets/logos/flume.svg';
+import flume from '../assets/logos/flume.png';
 import td from '../assets/logos/tech.svg';
 import corsair from '../assets/logos/corsair.png';
 import wolfram from '../assets/logos/wolfram.svg';
 import sketch from '../assets/logos/sketch.svg';
 import mule from '../assets/logos/stickermule.png';
 import calpolycs from '../assets/logos/cs.svg';
-import cpe from '../assets/logos/CPE.svg';
+import cpe from '../assets/logos/cpe.svg';
 import hc from '../assets/logos/hackclub.svg';
-import mlh from '../assets/logos/MLH.svg';
+import mlh from '../assets/logos/mlh.svg';
 import styles from './Sponsors.module.css';
 
 
@@ -41,13 +41,15 @@ const Sponsors = () => (
             blurb="At F5, our mission is straightforward: to deliver the fastest, most secure, and most reliable applications to any user, anywhere, on any device. The world’s largest enterprises, service providers, financial and educational institutions, government entities, and consumer brands rely on F5 to stay ahead of security, cloud, and mobility trends."
             link="https://www.f5.com/"
           />
-          <Sponsor
-            className={styles.topLogo}
-            sponsorName="iTradeNetwork"
-            logo={itrade}
-            blurb="With a powerful network of over 5,000 food and beverage trading partners, iTradeNetwork has been the leader in perishables supply chain management for 20 years. iTrade’s suite of end-to-end supply chain solutions tackles the complexities that occur at all waypoints of the perishables supply chain, from procurement and quality to traceability and spend management, so that you can focus on your core business."
-            link="https://www.itradenetwork.com/"
-          />
+          <div className={styles.itrade}>
+            <Sponsor
+              className={`${styles.topLogo} ${styles.itrade}`}
+              sponsorName="iTradeNetwork"
+              logo={itrade}
+              blurb="With a powerful network of over 5,000 food and beverage trading partners, iTradeNetwork has been the leader in perishables supply chain management for 20 years. iTrade’s suite of end-to-end supply chain solutions tackles the complexities that occur at all waypoints of the perishables supply chain, from procurement and quality to traceability and spend management, so that you can focus on your core business."
+              link="https://www.itradenetwork.com/"
+            />
+          </div>
           <Sponsor
             className={styles.topLogo}
             sponsorName="Western Digital"
@@ -75,7 +77,7 @@ const Sponsors = () => (
             className={styles.medLogo}
             sponsorName="Micro Vu"
             logo={micro}
-            blurb="Micro-Vu is an automation company specializing in 3D scanning and measuring. Micro-Vu engineers use technologies such as 3D software, image processing, precision mechanics and motion control, lasers, tactile probes, 3D sensors, machine learning and robotics to develop state-of-the-art solutions. 
+            blurb="Micro-Vu is an automation company specializing in 3D scanning and measuring. Micro-Vu engineers use technologies such as 3D software, image processing, precision mechanics and motion control, lasers, tactile probes, 3D sensors, machine learning and robotics to develop state-of-the-art solutions.
             Micro-Vu designs and manufactures in a highly-automated factory at its campus in Windsor, California near the Russian River. Micro-Vu was established in 1959 and is privately-held. Micro-Vu engineers must be highly-motivated, capable and passionate about bringing the best possible products and technologies to the market.
             "
             link="https://www.microvu.com/"
