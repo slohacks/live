@@ -24,6 +24,7 @@ import cpe from '../assets/logos/cpe.svg';
 import hc from '../assets/logos/hackclub.svg';
 import mlh from '../assets/logos/mlh.svg';
 import styles from './Sponsors.module.css';
+import '../layouts/index.css';
 
 
 const Sponsors = () => (
