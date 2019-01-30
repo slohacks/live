@@ -18,6 +18,7 @@
 
 .dayHeader {
   position: absolute;
+  text-transform: uppercase;
 }
 
 .friday {
@@ -37,8 +38,9 @@
   padding: 1rem 2rem;
 }
 
-.event h2 {
+.event h3:first-child {
   font-weight: bold;
+  letter-spacing: 0.1rem;
 }
 
 @media (min-width: 992px) {
