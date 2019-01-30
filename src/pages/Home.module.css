@@ -1,0 +1,76 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 3rem;
+  grid-template-areas:
+    'info'
+    'event'
+    'social';
+}
+
+.welcome {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual {
+  margin: 1em;
+  border-radius: 1vh;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.individual:hover {
+  background: #FFF;
+  color: #375787;
+}
+
+.links {
+  color: inherit;
+}
+
+.links:hover {
+  text-decoration: none;
+}
+
+.eventDetails {
+  margin: 0 0  0 2rem;
+}
+
+.info {
+  grid-area: info;
+}
+
+.event {
+  grid-area: event;
+}
+
+.social {
+  grid-area: social;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+}
+
+.socialMedia p {
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'info event'
+      'social event';
+    grid-gap: 1em;
+    color: rgb(255, 255, 255);
+  }
+}
