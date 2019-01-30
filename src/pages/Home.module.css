@@ -58,14 +58,21 @@
 .socialMedia {
   display: flex;
   align-items: center;
+  align-content: center;
 }
 
 .socialMedia img {
   width: auto;
+  padding: 1vh;
+  margin-bottom: 0;
 }
 
 .socialMedia p {
   margin-left: 1rem;
+}
+
+.socialText {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 992px) {
