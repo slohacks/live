@@ -1,5 +1,10 @@
 import React from 'react';
 import styles from './Home.module.css';
+import fb from '../assets/footer/facebook.png';
+import insta from '../assets/footer/instagram.png';
+import twitter from '../assets/footer/twitter.png';
+import slack from '../assets/footer/slack.png';
+import '../layouts/index.css';
 
 const Home = () => (
   <div className={styles.home}>
@@ -96,39 +101,51 @@ const Home = () => (
         Join our Slack Channel
       </h3>
       <div className={styles.eventDetails}>
-        <p>
-          <strong>
-            <a className={styles.links} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
-              bit.ly/join-slohacks2019
-            </a>
-          </strong>
-        </p>
+        <div className={styles.socialMedia}>
+          <img src={slack} alt="Slack" />
+          <p>
+            <strong>
+              <a className={styles.links} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
+                bit.ly/join-slohacks2019
+              </a>
+            </strong>
+          </p>
+        </div>
       </div>
       <h3>
         Follow us on social media!
       </h3>
       <div className={styles.eventDetails}>
-        <p>
-          <strong>
-            <a className={styles.links} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
-              slo_hacks
-            </a>
-          </strong>
-        </p>
-        <p>
-          <strong>
-            <a className={styles.links} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
-                slohacks
-            </a>
-          </strong>
-        </p>
-        <p>
-          <strong>
-            <a className={styles.links} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
-                slohacks
-            </a>
-          </strong>
-        </p>
+        <div className={styles.socialMedia}>
+          <img src={insta} alt="slo_hacks" />
+          <p>
+            <strong>
+              <a className={styles.links} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
+                slo_hacks
+              </a>
+            </strong>
+          </p>
+        </div>
+        <div className={styles.socialMedia}>
+          <img src={fb} alt="slo_hacks" />
+          <p>
+            <strong>
+              <a className={styles.links} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
+                  slohacks
+              </a>
+            </strong>
+          </p>
+        </div>
+        <div className={styles.socialMedia}>
+          <img src={twitter} alt="slo_hacks" />
+          <p>
+            <strong>
+              <a className={styles.links} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
+                  slohacks
+              </a>
+            </strong>
+          </p>
+        </div>
       </div>
     </div>
   </div>
