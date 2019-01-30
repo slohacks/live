@@ -1,13 +1,13 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { createMemoryHistory } from 'history';
 import Home from './Home';
 import Tracks from './Tracks';
 import Mentors from './Mentors';
 import Activities from './Activities';
 import Map from './Map';
 
-const history = createBrowserHistory();
+const history = createMemoryHistory();
 
 const IndexPage = () => (
   <Router history={history}>
