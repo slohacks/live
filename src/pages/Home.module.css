@@ -60,6 +60,10 @@
   align-items: center;
 }
 
+.socialMedia img {
+  width: auto;
+}
+
 .socialMedia p {
   margin-left: 1rem;
 }
