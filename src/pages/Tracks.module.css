@@ -10,10 +10,12 @@
 
 .gamedev {
   grid-area: gamedev;
+  margin-bottom: 2rem;
 }
 
 .ai {
   grid-area: ai;
+  margin-bottom: 2rem;
 }
 
 .iot {
