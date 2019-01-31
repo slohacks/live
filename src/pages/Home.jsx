@@ -20,16 +20,16 @@ const Home = () => (
         hosted at Cal Poly SLO. Over the course of the event, you will meet new
         people, develop your skills, and turn your next big idea into a reality!
       </p>
-      <button className={styles.individual}>
-        <a className={styles.links} href="https://www.slohacks.com/club/" target="_blank" rel="noopener noreferrer">
+      <a className={styles.links} href="https://www.slohacks.com/club/" target="_blank" rel="noopener noreferrer">
+        <button className={styles.individual}>
           Learn More
-        </a>
-      </button>
-      <button className={styles.individual}>
-        <a className={styles.links} href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer">
-        Code of Conduct
-        </a>
-      </button>
+        </button>
+      </a>
+      <a className={styles.links} href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer">
+        <button className={styles.individual}>
+          Code of Conduct
+        </button>
+      </a>
     </div>
     <div className={styles.event} >
       <h3>
