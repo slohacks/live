@@ -1,16 +1,17 @@
 .mentorCard {
-  text-align: center;
-  padding: 2rem 4rem;
+  padding: 3rem 3rem;
 }
 
 .mentorCard h2 {
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 2rem;
+  text-align: center;
 }
 
 .mentorCard p {
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 1.25rem;
+  letter-spacing: 0.05rem;
 }
 
 .imgBox {
