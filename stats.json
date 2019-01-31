@@ -20,13 +20,13 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "component---src-pages-activities-jsx": [
-      "component---src-pages-activities-jsx-3d10e386e62a092c63b3.js",
-      "component---src-pages-activities-jsx-3d10e386e62a092c63b3.js.map"
-    ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-ab0d346ce5727dbdc067.js",
-      "component---src-layouts-index-jsx-ab0d346ce5727dbdc067.js.map"
+      "component---src-layouts-index-jsx-9fa7932f7e892e943faa.js",
+      "component---src-layouts-index-jsx-9fa7932f7e892e943faa.js.map"
+    ],
+    "component---src-pages-schedule-jsx": [
+      "component---src-pages-schedule-jsx-9b00a86cefd978c8aaf7.js",
+      "component---src-pages-schedule-jsx-9b00a86cefd978c8aaf7.js.map"
     ],
     "path---home": [
       "path---home-a0e39f21c11f6a62c5ab.js",
@@ -62,27 +62,27 @@
       "component---src-pages-tracks-jsx-65605463abfaa95d8393.js",
       "component---src-pages-tracks-jsx-65605463abfaa95d8393.js.map"
     ],
-    "path---activities": [
-      "path---activities-a0e39f21c11f6a62c5ab.js",
-      "path---activities-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-workshop-jsx": [
       "component---src-pages-workshop-jsx-f20fcfaab269607059c5.js",
       "component---src-pages-workshop-jsx-f20fcfaab269607059c5.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-6f7777a2390304ebcabf.js",
-      "component---src-pages-index-jsx-6f7777a2390304ebcabf.js.map"
+      "component---src-pages-index-jsx-44d093aa4d6e710e77a3.js",
+      "component---src-pages-index-jsx-44d093aa4d6e710e77a3.js.map"
     ],
     "component---src-pages-map-jsx": [
       "component---src-pages-map-jsx-c2e4b7f00cb3a844f9cb.js",
       "component---src-pages-map-jsx-c2e4b7f00cb3a844f9cb.js.map"
     ],
     "app": [
-      "app-583170ec01cc170b8a7f.js",
+      "app-b9967533b30c68338023.js",
       "build-js-styles.css",
-      "app-583170ec01cc170b8a7f.js.map",
+      "app-b9967533b30c68338023.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---schedule": [
+      "path---schedule-a0e39f21c11f6a62c5ab.js",
+      "path---schedule-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
