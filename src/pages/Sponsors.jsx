@@ -28,7 +28,7 @@ import '../layouts/index.css';
 
 const Sponsors = () => (
   <div className={styles.sponsors}>
-    <h2>
+    <h2 className={styles.thankYou}>
     THANK YOU TO ALL OUR SPONSORS!
     </h2>
     <div className={styles.content}>
