@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Track.module.css';
+import base from './Track.module.css';
 import styles from '../layouts/index.module.css';
 
 const Track = props => (
   <div>
-    <img src={props.image} alt={props.title} />
+    <img className={base.logo} src={props.image} alt={props.title} />
     <h2>
       {props.title}
     </h2>
+    {props.other !== '' ? <h2> {props.other} </h2> : null }
     <br />
     <p>
       {props.blurb}
@@ -26,6 +27,11 @@ Track.propTypes = {
   title: PropTypes.string.isRequired,
   blurb: PropTypes.string.isRequired,
   starterPack: PropTypes.string.isRequired,
+  other: PropTypes.string,
+};
+
+Track.defaultProps = {
+  other: '',
 };
 
 export default Track;
