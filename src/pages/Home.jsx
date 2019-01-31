@@ -35,11 +35,11 @@ const Home = () => (
       </h3>
       <div className={styles.eventDetails}>
         <p>
-          <strong> SSID: </strong>
+          <span className={styles.bolded}> SSID: </span>
           SLO Hacks
         </p>
         <p>
-          <strong> Password: </strong>
+          <span className={styles.bolded}> Password: </span>
           s10-h@cks!
         </p>
       </div>
@@ -48,50 +48,50 @@ const Home = () => (
       </h3>
       <div className={styles.eventDetails}>
         <p>
-          <strong>
+          <span className={styles.bolded}>
             What is the max team size?
-          </strong>
+          </span>
           <br />
           The max team size is 4.
         </p>
         <p>
-          <strong>
+          <span className={styles.bolded}>
             Where can I find prize information?
-          </strong>
+          </span>
           <br />
           {'You can find the judging criteria at '}
-          <strong>
+          <span className={styles.bolded}>
             <a className={styles.links} href="https://slohacks2019.devpost.com/" target="_blank" rel="noopener noreferrer">
               slohacks2019.devpost.com.
             </a>
-          </strong>
+          </span>
         </p>
         <p>
-          <strong>
+          <span className={styles.bolded}>
             How can I claim travel reimbursement, if approved?
-          </strong>
+          </span>
           <br />
           You can claim your travel reimbursement at the the help desk.
         </p>
 
         <p>
-          <strong>
+          <span className={styles.bolded}>
             How do I get a mentor?
-          </strong>
+          </span>
           <br />
           You should post in the mentors channel on Slack and someone will get back to you.
         </p>
         <p>
-          <strong>
+          <span className={styles.bolded}>
             Where can I find the judging criteria?
-          </strong>
+          </span>
           <br />
           {'You can find the judging criteria at '}
-          <strong>
+          <span className={styles.bolded}>
             <a className={styles.links} href="https://slohacks2019.devpost.com/" target="_blank" rel="noopener noreferrer">
               slohacks2019.devpost.com.
             </a>
-          </strong>
+          </span>
         </p>
       </div>
     </div>
@@ -103,11 +103,9 @@ const Home = () => (
         <div className={styles.socialMedia}>
           <img src={slack} alt="Slack" />
           <p className={styles.socialText}>
-            <strong>
-              <a className={styles.links} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
-                bit.ly/join-slohacks2019
-              </a>
-            </strong>
+            <a className={styles.links} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
+              bit.ly/join-slohacks2019
+            </a>
           </p>
         </div>
       </div>
@@ -118,31 +116,25 @@ const Home = () => (
         <div className={styles.socialMedia}>
           <img src={insta} alt="slo_hacks" />
           <p className={styles.socialText}>
-            <strong>
-              <a className={styles.links} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
-                slo_hacks
-              </a>
-            </strong>
+            <a className={styles.links} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
+              slo_hacks
+            </a>
           </p>
         </div>
         <div className={styles.socialMedia}>
           <img src={fb} alt="slo_hacks" />
           <p className={styles.socialText}>
-            <strong>
-              <a className={styles.links} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
-                  slohacks
-              </a>
-            </strong>
+            <a className={styles.links} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
+                slohacks
+            </a>
           </p>
         </div>
         <div className={styles.socialMedia}>
           <img src={twitter} alt="slo_hacks" />
           <p className={styles.socialText}>
-            <strong>
-              <a className={styles.links} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
-                  slohacks
-              </a>
-            </strong>
+            <a className={styles.links} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
+                slohacks
+            </a>
           </p>
         </div>
       </div>

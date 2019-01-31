@@ -75,6 +75,10 @@
   margin-bottom: 0;
 }
 
+.bolded {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 992px) {
   .home {
     grid-template-columns: repeat(2, 1fr);
