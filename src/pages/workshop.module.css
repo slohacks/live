@@ -1,7 +1,7 @@
 .mentors {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 1rem 2rem;
+  padding: 1rem  0;
   color: #FFF;
   font-family: 'Brandon Grotesque', sans-serif;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './mentorsCard.module.css';
+import styles from './workshopCard.module.css';
 
-const MentorCard = ({ name, occupation, background }) => (
+const WorkshopCard = ({ name, occupation, background }) => (
   <div className={styles.mentorCard}>
     <div className={styles.imgBox} />
     <h2>{name}</h2>
@@ -11,10 +11,10 @@ const MentorCard = ({ name, occupation, background }) => (
   </div>
 );
 
-MentorCard.propTypes = {
+WorkshopCard.propTypes = {
   name: PropTypes.string.isRequired,
   occupation: PropTypes.string.isRequired,
   background: PropTypes.string.isRequired,
 };
 
-export default MentorCard;
+export default WorkshopCard;

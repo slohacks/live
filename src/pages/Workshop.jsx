@@ -1,9 +1,9 @@
 import React from 'react';
-import MentorCard from '../components/MentorCard';
-import styles from './mentors.module.css';
+import WorkshopCard from '../components/WorkshopCard';
+import styles from './workshop.module.css';
 import data from '../data/mentors.json';
 
-const Mentors = () => {
+const Workshop = () => {
   function renderMentors() {
     const { body } = data;
     return body.map((mentor) => {
@@ -14,7 +14,7 @@ const Mentors = () => {
         id,
       } = mentor;
       return (
-        <MentorCard key={id} name={name} occupation={occupation} background={background} />
+        <WorkshopCard key={id} name={name} occupation={occupation} background={background} />
       );
     });
   }
@@ -26,4 +26,4 @@ const Mentors = () => {
   );
 };
 
-export default Mentors;
+export default Workshop;
