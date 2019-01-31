@@ -21,7 +21,9 @@ const Home = () => (
         people, develop your skills, and turn your next big idea into a reality!
       </p>
       <button className={styles.individual}>
-        Learn More
+        <a className={styles.links} href="https://www.slohacks.com/club/" target="_blank" rel="noopener noreferrer">
+          Learn More
+        </a>
       </button>
       <button className={styles.individual}>
         <a className={styles.links} href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer">
