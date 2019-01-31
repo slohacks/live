@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-mentors-jsx": [
-      "component---src-pages-mentors-jsx-5923eba547e7286a78c7.js",
-      "component---src-pages-mentors-jsx-5923eba547e7286a78c7.js.map"
+    "path---workshop": [
+      "path---workshop-a0e39f21c11f6a62c5ab.js",
+      "path---workshop-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---map": [
       "path---map-a0e39f21c11f6a62c5ab.js",
@@ -25,8 +25,8 @@
       "component---src-pages-activities-jsx-3d10e386e62a092c63b3.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-4708e848e3c2e919c160.js",
-      "component---src-layouts-index-jsx-4708e848e3c2e919c160.js.map"
+      "component---src-layouts-index-jsx-ab0d346ce5727dbdc067.js",
+      "component---src-layouts-index-jsx-ab0d346ce5727dbdc067.js.map"
     ],
     "path---home": [
       "path---home-a0e39f21c11f6a62c5ab.js",
@@ -43,10 +43,6 @@
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---mentors": [
-      "path---mentors-a0e39f21c11f6a62c5ab.js",
-      "path---mentors-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
       "commons-4b8199db56caea926aaf.js",
@@ -70,18 +66,22 @@
       "path---activities-a0e39f21c11f6a62c5ab.js",
       "path---activities-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-workshop-jsx": [
+      "component---src-pages-workshop-jsx-f20fcfaab269607059c5.js",
+      "component---src-pages-workshop-jsx-f20fcfaab269607059c5.js.map"
+    ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-f7467a8e36c2e470b2f4.js",
-      "component---src-pages-index-jsx-f7467a8e36c2e470b2f4.js.map"
+      "component---src-pages-index-jsx-6f7777a2390304ebcabf.js",
+      "component---src-pages-index-jsx-6f7777a2390304ebcabf.js.map"
     ],
     "component---src-pages-map-jsx": [
       "component---src-pages-map-jsx-c2e4b7f00cb3a844f9cb.js",
       "component---src-pages-map-jsx-c2e4b7f00cb3a844f9cb.js.map"
     ],
     "app": [
-      "app-ddd1f14d9f7ad5660f56.js",
+      "app-583170ec01cc170b8a7f.js",
       "build-js-styles.css",
-      "app-ddd1f14d9f7ad5660f56.js.map",
+      "app-583170ec01cc170b8a7f.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
