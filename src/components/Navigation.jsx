@@ -39,7 +39,7 @@ class Navigation extends React.Component {
                 <Link replace to="/activities">Schedule</Link>
               </NavItem>
               <NavItem onClick={() => this.setState({ isOpen: false })}>
-                <Link replace to="/tracks">Map</Link>
+                <Link replace to="/map">Map</Link>
               </NavItem>
               <NavItem onClick={() => this.setState({ isOpen: false })}>
                 <Link replace to="/tracks">Tracks</Link>

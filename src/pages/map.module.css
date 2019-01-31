@@ -1,0 +1,42 @@
+.map {
+  text-align: center;
+}
+
+.mapButton {
+  font-size: 1.15rem;
+  color: #FFF;
+  border: 3px solid #FFF;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.mapButton:hover {
+  background-color: #FFF;
+  color: rgb(0, 0, 0);
+}
+
+.mapImage {
+  height: auto;
+  width: 90vw;
+}
+
+@media (min-width: 992px) {
+  .map {
+    text-align: center;
+  }
+
+  .mapImage {
+    width: 45vw;
+    height: auto;
+  }
+}
