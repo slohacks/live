@@ -1,8 +1,8 @@
 import React from 'react';
-import data from '../data/activities.json';
-import styles from './activities.module.css';
+import data from '../data/schedule.json';
+import styles from './schedule.module.css';
 
-const Activities = () => {
+const Schedule = () => {
   function renderActivities(eventSection) {
     const { body } = data;
     return body[eventSection].events.map((event) => { // eslint-disable-line arrow-body-style
@@ -35,4 +35,4 @@ const Activities = () => {
   );
 };
 
-export default Activities;
+export default Schedule;
