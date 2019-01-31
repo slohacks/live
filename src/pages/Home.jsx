@@ -105,7 +105,7 @@ const Home = () => (
         <div className={styles.socialMedia}>
           <img src={slack} alt="Slack" />
           <p className={styles.socialText}>
-            <a className={styles.links} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
+            <a className={styles.bolded} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
               bit.ly/join-slohacks2019
             </a>
           </p>
@@ -118,7 +118,7 @@ const Home = () => (
         <div className={styles.socialMedia}>
           <img src={insta} alt="slo_hacks" />
           <p className={styles.socialText}>
-            <a className={styles.links} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
+            <a className={styles.bolded} href="https://instagram.com/slo_hacks" target="_blank" rel="noopener noreferrer">
               slo_hacks
             </a>
           </p>
@@ -126,7 +126,7 @@ const Home = () => (
         <div className={styles.socialMedia}>
           <img src={fb} alt="slo_hacks" />
           <p className={styles.socialText}>
-            <a className={styles.links} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
+            <a className={styles.bolded} href="https://facebook.com/slohacks" target="_blank" rel="noopener noreferrer">
                 slohacks
             </a>
           </p>
@@ -134,7 +134,7 @@ const Home = () => (
         <div className={styles.socialMedia}>
           <img src={twitter} alt="slo_hacks" />
           <p className={styles.socialText}>
-            <a className={styles.links} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
+            <a className={styles.bolded} href="https://twitter.com/slohacks" target="_blank" rel="noopener noreferrer">
                 slohacks
             </a>
           </p>
