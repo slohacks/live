@@ -16,3 +16,11 @@ body {
   border-color: #FFF;
   border-radius: 1vh;
 }
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+}
