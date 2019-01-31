@@ -7,6 +7,29 @@ h2 {
   height: auto;
 }
 
+.sp {
+  font-size: 0.65rem;
+  color: #FFF;
+  border: 3px solid #FFF;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 2.5rem;
+  font-weight: 500;
+  border-radius: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  margin-top: 1rem;
+}
+
+.sp:hover {
+  background-color: #FFF;
+  color: #375787;
+}
+
 @media screen and (min-width: 992px) {
   .logo {
     width: 80%;

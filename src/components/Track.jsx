@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import base from './Track.module.css';
-import styles from '../layouts/index.module.css';
+import styles from './Track.module.css';
 
 const Track = props => (
   <div>
-    <img className={base.logo} src={props.image} alt={props.title} />
+    <img className={styles.logo} src={props.image} alt={props.title} />
     <h2>
       {props.title}
     </h2>
@@ -14,11 +13,11 @@ const Track = props => (
     <p>
       {props.blurb}
     </p>
-    <button className={styles.regular}>
-      <a href={props.starterPack} target="_blank" rel="noopener noreferrer">
+    <a href={props.starterPack} target="_blank" rel="noopener noreferrer">
+      <button className={styles.sp}>
         Starter Pack
-      </a>
-    </button>
+      </button>
+    </a>
   </div>
 );
 
