@@ -34,6 +34,7 @@
   cursor: pointer;
   transition: 0.25s ease-in-out;
   margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .individual:hover {

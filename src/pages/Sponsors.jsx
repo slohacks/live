@@ -29,7 +29,7 @@ import '../layouts/index.css';
 const Sponsors = () => (
   <div className={styles.sponsors}>
     <h2>
-      SPONSORS
+    THANK YOU TO ALL OUR SPONSORS!
     </h2>
     <div className={styles.content}>
       <div className={styles.logos}>
