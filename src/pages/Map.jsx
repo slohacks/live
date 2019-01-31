@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import chumash from '../assets/chumash.png';
-import uu from '../assets/uu.png';
-import campus from '../assets/campus.svg';
+import chumash from '../assets/chumash.jpg';
+import uu from '../assets/uu.jpg';
+import campus from '../assets/calpoly.jpg';
+import styles from './map.module.css';
 
 const imageURLs = {
   chumash,
@@ -30,25 +31,25 @@ class Map extends Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.map}>
         <button
           value="chumash"
           onClick={event => this.updateImage(event)}
-          className={this.state.selected === 'chumash' && 'selected'}
+          className={styles.mapButton}
         >
           Chumash
         </button>
         <button
           value="uu"
           onClick={event => this.updateImage(event)}
-          className={this.state.selected === 'uu' && 'selected'}
+          className={styles.mapButton}
         >
           University Union
         </button>
         <button
           value="campus"
           onClick={event => this.updateImage(event)}
-          className={this.state.selected === 'campus' && 'selected'}
+          className={styles.mapButton}
         >
           Cal Poly Campus
         </button>
@@ -56,6 +57,7 @@ class Map extends Component {
           <img
             src={this.state.img}
             alt={`Map of ${this.state.selected}`}
+            className={styles.mapImage}
           />
         </div>
       </div>
