@@ -4,16 +4,25 @@
 
 .mentorCard h2 {
   font-family: 'Brandon Grotesque', sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
 .mentorCard p {
   font-family: 'Brandon Grotesque', sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: 0.05rem;
+  font-size: 1rem;
 }
 
 .imgBox {
   background: rgb(0, 0, 0);
+}
+
+@media (min-width: 992px) {
+  .mentorCard h2 {
+    font-size: 1.5rem;
+  }
+
+  .mentorCard p {
+    font-size: 1.25rem;
+  }
 }
