@@ -3,7 +3,7 @@ h2 {
 }
 
 .logo {
-  width: 16vw;
+  width: 6vw;
   height: auto;
 }
 
@@ -28,11 +28,4 @@ h2 {
 .sp:hover {
   background-color: #FFF;
   color: #375787;
-}
-
-@media screen and (min-width: 992px) {
-  .logo {
-    width: 80%;
-    height: auto;
-  }
 }
