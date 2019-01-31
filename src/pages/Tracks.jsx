@@ -20,7 +20,7 @@ const Tracks = () => (
       <Track
         image={ai}
         title="AI + MACHINE"
-        other="Learning"
+        other="LEARNING"
         blurb="Train your computer to solve complex problems like cancer detection or homelessness with huge open-source datasets and large amounts of information."
         starterPack="https://bit.ly/2G3YqKm"
       />
