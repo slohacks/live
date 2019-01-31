@@ -6,6 +6,7 @@
 .content {
   display: grid;
   grid-template-columns: 10% 1fr 10%;
+  grid-template-areas: '. logos .';
   margin-top: 3rem;
 }
 
@@ -13,62 +14,37 @@
   grid-area: logos;
 }
 
-.itrade {
-  padding-bottom: 4.25%;
+.sponsor {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.corsair {
-  width: 25%;
+.sponsorBlurb {
+  text-align: left;
 }
 
-.wolfram {
-  width: 25%;
+.links {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #FFF;
+}
+
+.largeLogos {
+  width: 35vw;
+  height: auto;
 }
 
 @media screen and (min-width: 992px) {
   .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
-  .topSponsors {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: span 3;
-  }
-
-  .topLogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .medSponsors {
-    display: grid;
-    grid-column: span 3;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .medLogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-  }
-
-  .smallLogos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: span 3;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .silver {
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    justify-items: center;
+  .largeLogos {
+    width: 14vw;
+    height: auto;
   }
 }
