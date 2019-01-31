@@ -36,7 +36,7 @@ class Navigation extends React.Component {
           <Collapse className={`${styles.navFlex}`} isOpen={this.state.isOpen} navbar>
             <Nav className={styles.navList}navbar>
               <NavItem onClick={() => this.setState({ isOpen: false })}>
-                <Link replace to="/activities">Schedule</Link>
+                <Link replace to="/schedule">Schedule</Link>
               </NavItem>
               <NavItem onClick={() => this.setState({ isOpen: false })}>
                 <Link replace to="/map">Map</Link>
