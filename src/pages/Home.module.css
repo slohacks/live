@@ -19,24 +19,26 @@
 }
 
 .individual {
-  margin: 1em;
-  border-radius: 1vh;
-  border-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  background-color: transparent;
+  font-size: 0.65rem;
+  color: #FFF;
+  border: 3px solid #FFF;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 2.5rem;
+  font-weight: 500;
+  border-radius: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  margin-left: 1rem;
 }
 
 .individual:hover {
-  background: #FFF;
-  color: #375787;
-}
-
-.links {
-  color: inherit;
-}
-
-.links:hover {
-  text-decoration: none;
+  background-color: #FFF;
+  color: #375878;
 }
 
 .eventDetails {
@@ -58,10 +60,25 @@
 .socialMedia {
   display: flex;
   align-items: center;
+  align-content: center;
+}
+
+.socialMedia img {
+  width: auto;
+  padding: 1vh;
+  margin-bottom: 0;
 }
 
 .socialMedia p {
   margin-left: 1rem;
+}
+
+.socialText {
+  margin-bottom: 0;
+}
+
+.bolded {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
