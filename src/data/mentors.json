@@ -21,31 +21,25 @@
     {
       "name": "Creating The Perfect Pitch On Short Notice",
       "occupation": "Dan Weeks",
-      "background": "Dan worked at Hewlett-Packard for twenty-five years in a variety of engineering and engineering management positions before starting his first company, BrightScope Inc., a financial information and technology company. The company sold to a private equity firm after eight years of hard work and with over sixty employees.Dan moved to San Luis Obispo in 2013 to help establish the entrepreneurship effort at Cal Poly. He was the founding entrepreneur-in-residence for the SLO Hothouse (Cal Poly’s business incubator in downtown SLO) and continues in that role. Dan has mentored numerous student entrepreneurs and community members since moving to SLO.",
+      "background": "Dan Weeks is the Entrepreneur-In-Residence at the SLO Hothouse and teaches BUS 310, “Intro to Entrepreneurship” at Cal Poly.   The core skill learned in this class is how to build support for your business idea within an existing company or a new business idea for a startup.  Using our simple “Pitch Deck Cheat Sheet Flowchart” hackathon teams can apply this process to dramatically increase the quality of their final pitch.",
       "id": 7
     },
     {
       "name": "Western Digital Info Session",
-      "occupation": "TBA",
-      "background": "Western Digital® creates environments for data to thrive. Everywhere data is captured, preserved, accessed and transformed, we’re leading the charge to unlock its potential. From advanced data centers to mobile sensors to personal devices, our industry leading solutions create environments where the flow of information leads to smarter decisions, breakthrough discoveries and deeper connections.",
+      "occupation": "Spencer Gilson",
+      "background": "Spencer Gilson is a Technician in the Software Quality Assurance department at Western Digital and a Computer Science student at CalPoly SLO. He has been working for Western Digital since his summer internship in 2018. His work is primarily focused on expanding the automation capabilities of his department.",
       "id": 5
     },
     {
       "name": "ML Frameworks for iOS",
       "occupation": "Randy Scovil",
-      "background": "Speaker bio to be announced.",
+      "background": "Randy Scovil has taught computer science at Cal Poly and Cuesta College for the past 21 years. He has taught a variety of courses and is currently focused on iOS Development and introductory courses.",
       "id": 4
-    },
-    {
-      "name": "Intro to User Experience",
-      "occupation": "Jim Heald",
-      "background": "Speaker bio to be announced.",
-      "id": 6
     },
     {
       "name": "Intro to iOS",
       "occupation": "Sarthak Khillion",
-      "background": "Speaker bio to be announced.",
+      "background": "Sarthak Khillion has been developing iOS apps for 4 years. He has worked with multiple organizations and startups; most recently, he worked on Flume’s internal and customer-facing mobile applications. Sarthak is currently a 3rd year Computer Science student at Cal Poly, and he is also pursuing minors in Data Science and Entrepreneurship. (Note: If you’re interested in this workshop, please install Xcode on your laptop in advance.)",
       "id": 0
     }
   ]
