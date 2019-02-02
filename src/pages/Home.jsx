@@ -106,7 +106,7 @@ const Home = () => (
           <img src={slack} alt="Slack" />
           <p className={styles.socialText}>
             <a className={styles.bolded} href="http://bit.ly/join-slohacks2019" target="_blank" rel="noopener noreferrer">
-              bit.ly/join-slohacks2019
+              slack.slohacks.com
             </a>
           </p>
         </div>
